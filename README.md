@@ -1,72 +1,102 @@
-# Getting Started with Create React App
+<div align="center">
+    <a href="https://cryptodb-fv.netlify.app" target="_blank">
+      <img src="public/design/preview.webp" alt="Project Banner">
+    </a>
+  <h3 align="center">Cryptocurrency DB</h3>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##  <br /> 📋 <a name="table">Table of Contents</a>
 
-## Available Scripts
+- ✨ [Introduction](#introduction)
+- ⚙️ [Tech Stack](#tech-stack)
+- 📝 [Features](#features)
+- 🚀 [Quick Start](#quick-start)
 
-In the project directory, you can run:
+##  <br /> <a name="introduction">✨ Introduction</a>
 
-### `npm start`
+**[EN]** CryptoDB is a React application that integrates RapidAPI for features such as Bing News Search and Crypto Ranking. It utilizes Redux Toolkit for efficient state management, Ant Design for polished UI components, and Chart.js for dynamic data visualization.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**[FR]** CryptoDB est une application React qui intègre RapidAPI pour des fonctionnalités telles que la recherche d'actualités Bing et le classement des cryptomonnaies. Elle utilise Redux Toolkit pour une gestion efficace de l'état, Ant Design pour des composants d'interface utilisateur élégants, et Chart.js pour la visualisation dynamique des données.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
 
-### `npm test`
+- **React** is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React Redux** is an official Redux library for integrating Redux state management with React applications. It simplifies the process of managing application state by providing predictable state containers and enabling efficient data flow between React components, making it easier to maintain large-scale applications.
 
-### `npm run build`
+- **Axios** is a popular JavaScript library used for making HTTP requests from the browser or Node.js. It simplifies the process of sending asynchronous HTTP requests and handling responses, making it easier to interact with APIs and fetch data in web applications.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Chart.js** is a versatile JavaScript library for creating responsive and interactive charts and graphs. It offers a wide range of chart types, customization options, and supports dynamic data updates, making it suitable for visualizing data in web applications with ease.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Ant Design** is a comprehensive UI library for React applications, offering a set of polished and customizable components. It follows design principles for creating modern and accessible user interfaces, providing ready-to-use components like buttons, forms, and layouts that enhance development efficiency and maintain consistency in UI design.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Millify** is a lightweight JavaScript library for formatting numbers into readable strings, particularly useful for converting large numbers (such as cryptocurrency values or statistics) into abbreviated formats. It provides functions to convert numbers into million, billion, or trillion formats, improving readability and user experience in data-heavy applications.
 
-### `npm run eject`
+- **Moment** is a widely used JavaScript library for parsing, validating, manipulating, and formatting dates and times. It simplifies working with dates and times in web applications by providing an extensive set of functions for operations like parsing dates from strings, formatting dates for display, and calculating durations between dates.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## <br /> <a name="quick-start">🚀 Quick Start</a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Follow these steps to set up the project locally on your machine.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<br/>**Prerequisites**
 
-## Learn More
+Make sure you have the following installed on your machine:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br/>**Cloning the Repository**
 
-### Code Splitting
+```bash
+git clone {git remote URL}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<br/>**Installation**
 
-### Analyzing the Bundle Size
+Let's install the project dependencies, from your terminal, run:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm install
+# or
+yarn install
+```
 
-### Making a Progressive Web App
+<br/>**Set Up Environment Variables**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Create a new file named `.env` in the root of your project and add the following content:
 
-### Advanced Configuration
+```env
+# Rapid API 
+REACT_APP_RAPIDAPI_KEY=
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Coin Ranking
+REACT_APP_CRYPTO_RAPIDAPI_HOST=coinranking1.p.rapidapi.com
+REACT_APP_CRYPTO_API_URL=https://coinranking1.p.rapidapi.com
 
-### Deployment
+# Bing News Search
+REACT_APP_NEWS_RAPIDAPI_HOST=bing-news-search1.p.rapidapi.com
+REACT_APP_NEWS_API_URL=https://bing-news-search1.p.rapidapi.com
+ 
+ESLINT_NO_DEV_ERRORS=true
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Replace the placeholder values with your actual respective account credentials:
 
-### `npm run build` fails to minify
+- [Rapid API](https://rapidapi.com/hub)
+- [Coin Ranking](https://rapidapi.com/Coinranking/api/coinranking1)
+- [Bing News Search](https://rapidapi.com/microsoft-azure-org-microsoft-cognitive-services/api/bing-news-search1 )
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# cryptocurrency-app
-# cryptocurrency-app
+
+<br/>**Running the Project**
+
+Installation will take a minute or two, but once that's done, you should be able to run the following command:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [`http://localhost:3000`](http://localhost:3000) in your browser to view the project.
