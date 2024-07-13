@@ -94,9 +94,9 @@ Replace the placeholder values with your actual respective account credentials:
 Installation will take a minute or two, but once that's done, you should be able to run the following command:
 
 ```bash
-npm run dev
+npm start
 # or
-yarn dev
+yarn start
 ```
 
 Open [`http://localhost:3000`](http://localhost:3000) in your browser to view the project.
