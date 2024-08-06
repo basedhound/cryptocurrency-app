@@ -1,6 +1,6 @@
 <div align="center">
     <a href="https://cryptodb-fv.netlify.app" target="_blank">
-      <img src="public/design/preview.webp" alt="Project Banner">
+      <img src="public/design/preview.png" alt="Project Banner">
     </a>
   <h3 align="center">Cryptocurrency DB</h3>
 </div>
@@ -20,19 +20,19 @@
 
 ##  <br /> <a name="tech-stack">⚙️ Tech Stack</a>
 
-- **React** is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
+- [**React**](https://react.dev/reference/react)* is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time. React's component-based architecture allows developers to create reusable UI components, making development more efficient and the codebase easier to maintain. 
 
-- **React Redux** is an official Redux library for integrating Redux state management with React applications. It simplifies the process of managing application state by providing predictable state containers and enabling efficient data flow between React components, making it easier to maintain large-scale applications.
+- [**React Redux**](https://react-redux.js.org/introduction/getting-started) is an official Redux library for integrating Redux state management with React applications. It simplifies the process of managing application state by providing predictable state containers and enabling efficient data flow between React components, making it easier to maintain large-scale applications.
 
-- **Axios** is a popular JavaScript library used for making HTTP requests from the browser or Node.js. It simplifies the process of sending asynchronous HTTP requests and handling responses, making it easier to interact with APIs and fetch data in web applications.
+- [**Axios**](https://axios-http.com/docs/intro) is a popular JavaScript library used for making HTTP requests from the browser or Node.js. It simplifies the process of sending asynchronous HTTP requests and handling responses, making it easier to interact with APIs and fetch data in web applications.
 
-- **Chart.js** is a versatile JavaScript library for creating responsive and interactive charts and graphs. It offers a wide range of chart types, customization options, and supports dynamic data updates, making it suitable for visualizing data in web applications with ease.
+- [**Chart.js**](https://www.chartjs.org/docs/latest/getting-started/) is a versatile JavaScript library for creating responsive and interactive charts and graphs. It offers a wide range of chart types, customization options, and supports dynamic data updates, making it suitable for visualizing data in web applications with ease.
 
-- **Ant Design** is a comprehensive UI library for React applications, offering a set of polished and customizable components. It follows design principles for creating modern and accessible user interfaces, providing ready-to-use components like buttons, forms, and layouts that enhance development efficiency and maintain consistency in UI design.
+- [**Ant Design**](https://ant.design/docs/react/getting-started) is a comprehensive UI library for React applications, offering a set of polished and customizable components. It follows design principles for creating modern and accessible user interfaces, providing ready-to-use components like buttons, forms, and layouts that enhance development efficiency and maintain consistency in UI design.
 
-- **Millify** is a lightweight JavaScript library for formatting numbers into readable strings, particularly useful for converting large numbers (such as cryptocurrency values or statistics) into abbreviated formats. It provides functions to convert numbers into million, billion, or trillion formats, improving readability and user experience in data-heavy applications.
+- [**Millify**](https://www.npmjs.com/package/millify) is a lightweight JavaScript library for formatting numbers into readable strings, particularly useful for converting large numbers (such as cryptocurrency values or statistics) into abbreviated formats. It provides functions to convert numbers into million, billion, or trillion formats, improving readability and user experience in data-heavy applications.
 
-- **Moment** is a widely used JavaScript library for parsing, validating, manipulating, and formatting dates and times. It simplifies working with dates and times in web applications by providing an extensive set of functions for operations like parsing dates from strings, formatting dates for display, and calculating durations between dates.
+- [**Moment**](https://www.npmjs.com/package/moment) is a widely used JavaScript library for parsing, validating, manipulating, and formatting dates and times. It simplifies working with dates and times in web applications by providing an extensive set of functions for operations like parsing dates from strings, formatting dates for display, and calculating durations between dates.
 
 
 ## <br /> <a name="quick-start">🚀 Quick Start</a>
